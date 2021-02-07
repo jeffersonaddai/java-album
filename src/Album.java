@@ -44,9 +44,4 @@ public class Album {
         return false;
     }
 
-    public void printSongs() {
-        for (Song song : songs) {
-            System.out.println(song.toString());
-        }
-    }
 }
